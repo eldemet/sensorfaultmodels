@@ -31,8 +31,16 @@ events.t1{4} = 70 % time step start
 events.t2{4} = inf % time step end
 events.a1{4} = 999999 % parameter in occurance evolution profile function
 events.a2{4} = 0.7 % parameter in dissapearance evolution profile function
-events.functiontype{4} = 'constant'; 
-events.functionpar{4} = -2  %constant difference
+events.functiontype{4} = 'percentage'; 
+events.functionpar{4} = 0.1  %constant difference
+
+events.t1{5} = 80 % time step start
+events.t2{5} = inf % time step end
+events.a1{5} = 999999 % parameter in occurance evolution profile function
+events.a2{5} = 0.7 % parameter in dissapearance evolution profile function
+events.functiontype{5} = 'stuckzero'; 
+events.functionpar{5} = 0  %constant difference
+
 
 n = length(events.t1);
 
@@ -73,6 +81,12 @@ for k = 1:length(y0)
             if strcmp(ftype,'normal') 
                 phi = normrnd(0,fpar);
             end
+            if strcmp(ftype,'percentage') 
+                phi = fpar*y0k;
+            end
+            if strcmp(ftype,'stuckzero') 
+                phi = -y0k;
+            end            
         end
         
         df = b * phi;
