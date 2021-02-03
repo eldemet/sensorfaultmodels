@@ -6,5 +6,5 @@ Sensor Fault Models is a MATLAB example implementation of the fault models discu
 
 Reference
 =========
-Reppa, Vasso, Marios M. Polycarpou, and Christos G. Panayiotou. "Sensor fault diagnosis." (2016): 1-248.
-https://www.researchgate.net/profile/Vasso_Reppa/publication/305522695_Sensor_Fault_Diagnosis/links/5bed987392851c6b27c23551/Sensor-Fault-Diagnosis.pdf
+[Reppa, Vasso, Marios M. Polycarpou, and Christos G. Panayiotou. "Sensor fault diagnosis." (2016): 1-248.](
+https://www.researchgate.net/profile/Vasso_Reppa/publication/305522695_Sensor_Fault_Diagnosis/links/5bed987392851c6b27c23551/Sensor-Fault-Diagnosis.pdf)
