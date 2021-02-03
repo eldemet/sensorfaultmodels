@@ -2,6 +2,7 @@
 
 Sensor Fault Models is a MATLAB example implementation of the fault models discussed in Reppa et al. 2016., Chapter 2.
 
+![Sensor Fault Models (Reppa et al., 2016)](https://github.com/eldemet/sensorfaultmodels/blob/main/sensorfaultmodels.png?raw=true)
 
 Reference
 =========
